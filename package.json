@@ -4,7 +4,7 @@
   "description": "Practice repo for learning Sass from the Udemy course Modern HTML & CSS from the Beginning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tonythetiger323/sass-sandbox/issues"
   },
-  "homepage": "https://github.com/tonythetiger323/sass-sandbox#readme"
+  "homepage": "https://github.com/tonythetiger323/sass-sandbox#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
